@@ -1,0 +1,48 @@
+.header {
+    margin-top: 50px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    font-size: 40px;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    color: rgb(255, 255, 255);
+    -unity-font: initial;
+    -unity-font-definition: url("project://database/Assets/Fonts/AnderHedge/Ander%20Hedge%20SDF.asset?fileID=11400000&guid=9ccf6dd94d8df4d20bc623da3d4643f0&type=2#Ander Hedge SDF");
+}
+
+.button {
+    width: 220px;
+    height: 140px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    flex-shrink: 0;
+    font-size: 34px;
+    align-items: center;
+    align-self: auto;
+    position: relative;
+    left: auto;
+    top: auto;
+    -unity-font-definition: url("project://database/Assets/Fonts/AnderHedge/Ander%20Hedge%20SDF.asset?fileID=11400000&guid=9ccf6dd94d8df4d20bc623da3d4643f0&type=2#Ander Hedge SDF");
+    background-image: url("project://database/Assets/sprites/Knapp.png?fileID=2800000&guid=a1018f024a8c52b45abc4afe773e67e1&type=3#Knapp");
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-image-tint-color: rgb(135, 135, 135);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    color: rgb(135, 135, 135);
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.button:hover {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    transition-duration: 0.1s;
+}
